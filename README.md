@@ -15,22 +15,22 @@
 
 # 上线配置说明
 ## 1.s3event-trigger-tencentapigw
-robot_url：discord机器人频道
-robot_thread：discord机器人子区
-table：失败记录的dynamoDB数据库表名
-dynamodb_region：aws服务所在区域
+robot_url：discord机器人频道  
+robot_thread：discord机器人子区  
+table：失败记录的dynamoDB数据库表名  
+dynamodb_region：aws服务所在区域  
 
-apigwUrl:腾讯云api网关地址
+apigwUrl:腾讯云api网关地址  
 cdnUrl：s3存储桶cdn
 
 ## 2.syncfilefroms3tocos
 uploadfile中cosurl设置腾讯云存储桶url
 
 ## 3.retrysyncfile
-robot_url：discord机器人频道
-robot_thread：discord机器人子区
-table：失败记录的dynamoDB数据库表名
-dynamodb_region：aws服务所在区域
+robot_url：discord机器人频道  
+robot_thread：discord机器人子区  
+table：失败记录的dynamoDB数据库表名  
+dynamodb_region：aws服务所在区域  
 
 profile:认证文件配置节段
 
